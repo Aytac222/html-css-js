@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(180, 173, 164);
+}
+button{
+    padding: 15px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: rgb(110, 105, 177);
+    font-size: 32px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    color: rgb(212, 197, 197);
+    transition: 0.3s ease;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(79, 45, 160);
+}
+fieldset{
+    border-color: rgb(55, 9, 141);
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    color: rgb(79, 42, 165);
+}
+.ekran1{
+    width: 400px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    color: rgb(35, 0, 100);
+    padding: 10px;
+}
+.ortala{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
